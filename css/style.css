@@ -1,0 +1,45 @@
+/* Global Styles */
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap");
+
+:root {
+  --primary-color: ;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(210, 46%, 95%);
+  font-family: "Cabin", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  /* display: block;
+  width: 100%; */
+}
+
+/* Page Styles */
