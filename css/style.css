@@ -15,7 +15,6 @@ body {
   /* background: hsl(210, 46%, 95%); */
   font-family: "Cabin", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 15px;
 }
 
 h1,
@@ -43,3 +42,29 @@ img {
 }
 
 /* Page Styles */
+/* Navbar */
+.header {
+  height: 70px;
+  width: 100%;
+  /* border-bottom: 1px solid #000; */
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar__item {
+  padding-right: 1rem;
+  margin-top: 1rem;
+}
+
+.landing {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  height: 100vh;
+}
