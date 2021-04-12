@@ -18,36 +18,42 @@
 </head>
 
 <body>
+    <div class="wrapper wrapper--top">
+        <!-- Navigation -->
+        <header class="header">
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <!-- <li class="navbar__item"><img src="./img/mylogo--green.png" alt="" class="navbar__logo"></li> -->
+                    <li class="navbar__item"><a href="https://github.com/stephenstarbuck" class="navbar__link"
+                            title="GitHub"><i class="fab fa-github fa-2x"></i></a></li>
+                    <li class="navbar__item"><a href="https://www.linkedin.com/in/stephen-starbuck/"
+                            class="navbar__link" title="LinkedIn"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+                    <!-- <li class="navbar__item"><a href="#" class="navbar__link" title="Codepen"><i
+                                class="fab fa-codepen fa-2x"></i></a></li> -->
+                    <li class="navbar__item"><a href="#contact" class="btn btn--sm">Get In Touch</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <!-- Navigation -->
-    <header class="header">
-        <nav class="navbar">
-            <ul class="navbar__list">
-                <li class="navbar__item"><a href="https://github.com/stephenstarbuck" class="navbar__link"
-                        title="GitHub"><i class="fab fa-github fa-2x"></i></a></li>
-                <li class="navbar__item"><a href="https://www.linkedin.com/in/stephen-starbuck/" class="navbar__link"
-                        title="LinkedIn"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
-                <li class="navbar__item"><a href="#" class="navbar__link" title="Codepen"><i
-                            class="fab fa-codepen fa-2x"></i></a></li>
-                <li class="navbar__item"><a href="https://www.leetcode.com" class="navbar__link" title="Leetcode"><i
-                            class="far fa-file-code fa-2x"></i></a></li>
-            </ul>
-        </nav>
-    </header>
+        <!-- Main Page Content -->
+        <main class="main">
+            <!-- Landing Page -->
+            <section class="landing">
+                <div class="landing__container">
+                    <p class="landing__hello">hi, my name is</p>
+                    <h1 class="landing__title">Stephen Starbuck</h1>
+                    <h2 class="landing__tagline">I create things for the web.</h2>
+                    <p class="landing__text"><i class="fas fa-quote-left"></i> I'm a web developer and designer in Sacramento, CA specializing in building
+                        exceptional websites, applications, and everything in between. <i class="fas fa-quote-right"></i></p>
+                    <img src="./img/showcase.svg" alt="" class="landing__img">
+                    <a href="#projects" class="btn btn--arrow"><i class="fas fa-angle-double-down fa-3x"></i></a>
 
-    <!-- Main Page Content -->
-    <main class="main">
-        <!-- Landing Page -->
-        <section class="landing">
-            <div class="landing__container">
-                <h1 class="landing__title">Stephen Starbuck.</h1>
-                <p class="landing__text"> <span class="landing__text--color">Jr. Dev</span> with <span
-                        class="landing__text--color">Senior Skills</span></p>
-                <a href="#projects" class="landing__link">View Projects</a>
-            </div>
-        </section>
+                </div>
+            </section>
+    </div>
 
-        <!-- Projects Section -->
+    <!-- Projects Section -->
+    <div class="wrapper wrapper--bottom">
         <section id="projects" class="projects">
             <h2 class="projects__title">Projects</h2>
             <div class="projects__grid">
@@ -136,7 +142,9 @@
                 <input type="submit" class="button" value="Submit" name="submit">
             </form>
         </section>
-    </main>
+        </main>
+    </div>
+
 
     <!-- Footer -->
     <footer class="footer">
