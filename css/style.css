@@ -45,7 +45,6 @@ a {
   width: 80%;
   height: 100vh;
   margin: auto;
-  background: url(../img/wave.png) no-repeat center center/cover;
 }
 
 .btn {
@@ -117,7 +116,15 @@ a {
 }
 
 /* Landing Section */
-.landing {
+.landing::after {
+  content: "";
+  background-color: var(--dark);
+  position: absolute;
+  top: 800px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
 }
 
 .landing__container {
